@@ -170,3 +170,22 @@ body {
 svg {
   margin-right: 15px;
 }
+
+@media (max-width: 768px) {
+
+	
+.nav {
+    display: flex;
+    flex-direction: column;  
+    align-items: center; 
+    justify-content: center; 
+    gap: 15px; 
+    padding: 20px 0; 
+  }
+
+
+.nav a svg {
+    width: 32px; 
+    height: 32px;
+  }
+}
